@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    background-color: rgb(84, 84, 47);
+  }
+  
+  nav a {
+    background-color: rgb(198, 208, 230);
+    color: rgb(6, 2, 95);
+    padding: 25px;
+    margin: 10px;
+
+    transition: background-color 3s;
+  }
+
+  nav a:hover{
+    background-color:rgb(86, 78, 236)
+  }
+
+  header, main {
+    overflow: auto;
+  }
+
+  
