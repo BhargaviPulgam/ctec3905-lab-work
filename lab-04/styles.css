@@ -1,0 +1,66 @@
+nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+  p{
+    padding: 0 1em;
+    max-width: 600px;
+    margin: 1em auto;
+  }
+
+  nav a {
+    background-color: rgb(198, 208, 230);
+    color: rgb(6, 2, 95);
+    padding: 25px;
+    margin: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  
+    /* more custom styles */
+  
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+    transform: translateX(100vw);
+    transition: 0.5s;
+  }
+  
+  nav.open {
+    transform: translateX(0);
+  }
+  
+
+  
+
+  #menuToggler {
+	position: fixed;
+	top: 0.5rem;
+	right: 0.5rem;
+	background-color: rgb(84, 84, 47);
+	color: rgb(198, 208, 230);
+	font-size: 3em;
+	text-align: right;
+	line-height: 1em;
+	padding: 0 1rem;
+    z-index: 1;
+}
+
+@media screen and (min-width: 500px) {
+
+    #menuToggler {
+      display: none;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: row;
+      
+    }
+  
+  }
